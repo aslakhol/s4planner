@@ -1,0 +1,27 @@
+.App {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-gap: 8px;
+}
+
+* {
+  font-family: "Lucida Console", Monaco, monospace;
+}
+
+.hero {
+  border: 2px solid gray;
+  border-radius: 4px;
+  padding: 6px;
+}
+
+.epic {
+  border-color: rebeccapurple;
+}
+
+.rare {
+  border-color: gold;
+}
+
+h3 {
+  margin-top: 2px;
+}
